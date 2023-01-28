@@ -4,6 +4,12 @@ $months = array(
     'Mayo', 'Junio', 'Julio', 'Agosto',
     'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
 );
+$alex = array(
+    'telephone' => '626145879',
+    'age' => 25,
+    'surname' => 'Artiles',
+    'country' => 'Spain'
+);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,14 +22,17 @@ $months = array(
 </head>
 
 <body>
-    <h1>Meses del año</h1>
+    <h1>Months</h1>
+
     <ul>
-        <?php 
-        foreach($months as $month){
-            echo '<li>' . $month . '</li>';
-        }
+        <?php
+        // foreach($months as $month){
+        //     echo '<li>' . $month . '</li>';
+        // }
+
         ?>
     </ul>
+
 </body>
 
 </html>
