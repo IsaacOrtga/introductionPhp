@@ -29,7 +29,13 @@ $alex = array(
         // foreach($months as $month){
         //     echo '<li>' . $month . '</li>';
         // }
-
+            foreach($alex as $data => $value){
+                echo '<li>' . $data . ' : ' . $value . '</li>';
+                // foreach($variable as $key => $value){
+                    // Un ciclo foreach dentro de otro 
+                    // serviría para recorrer un arreglo dentro de otro arreglo
+                // }
+            }
         ?>
     </ul>
 
